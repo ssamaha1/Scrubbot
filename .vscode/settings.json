@@ -1,0 +1,4 @@
+{
+  "python.terminal.useEnvFile": true,
+  "pylint.args": ["--extension-pkg-allow-list=cv2"]
+}
