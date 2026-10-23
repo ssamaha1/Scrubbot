@@ -1,0 +1,84 @@
+{
+  "frame": "camera_optical",
+  "pixel": [
+    919,
+    398
+  ],
+  "x_mm": 168.85061409014003,
+  "y_mm": 11.747414780787052,
+  "z_mm": 549.0,
+  "valid_depth_samples": 121,
+  "depth_spread_mm": 2.0,
+  "method": "aligned_depth_pinhole_approximation",
+  "captured_at_unix": 1792786904.6,
+  "robot_estimate_unvalidated": {
+    "reference_frame": "arm_origin",
+    "x_mm": 414.283490003926,
+    "y_mm": -97.96265333876173,
+    "z_mm": 7.728918080623005
+  },
+  "selected_spots": [
+    {
+      "pixel": [
+        879,
+        509
+      ],
+      "plate_relative_mm": {
+        "x": 67.23195923944172,
+        "y": -23.41482721369053,
+        "z": 0.0
+      },
+      "corrected_robot_xy_mm": [
+        495.5154492433677,
+        -138.37748055245225
+      ],
+      "stroke_axis": "plate_x",
+      "stroke_length_mm": 10.0,
+      "cycles": 2
+    },
+    {
+      "pixel": [
+        785,
+        369
+      ],
+      "plate_relative_mm": {
+        "x": -16.08085123986791,
+        "y": -82.0908466445342,
+        "z": 0.0
+      },
+      "corrected_robot_xy_mm": [
+        412.20263876405807,
+        -197.05349998329592
+      ],
+      "stroke_axis": "plate_x",
+      "stroke_length_mm": 10.0,
+      "cycles": 2
+    },
+    {
+      "pixel": [
+        930,
+        405
+      ],
+      "plate_relative_mm": {
+        "x": 4.212937634288892,
+        "y": 7.3612668737363265,
+        "z": 0.0
+      },
+      "corrected_robot_xy_mm": [
+        432.49642763821487,
+        -107.6013864650254
+      ],
+      "stroke_axis": "plate_x",
+      "stroke_length_mm": 10.0,
+      "cycles": 2
+    }
+  ],
+  "skipped_spots": [],
+  "corrected_hover_xy": {
+    "reference_frame": "arm_origin",
+    "x_mm": 495.5154492433677,
+    "y_mm": -138.37748055245225,
+    "offset_x_mm": 14.0,
+    "offset_y_mm": -17.0
+  }
+}
